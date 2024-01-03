@@ -29,7 +29,6 @@ metadata:
 spec:
   pipelineRef:
     name: pipeline-multiarch-manifest
-    namespace: tekton-demo
   taskRunSpecs:
    - pipelineTaskName: build-amd64
      taskPodTemplate:
